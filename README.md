@@ -8,10 +8,11 @@ Get instant notification of your payment history
 
 1. Signup into [Pushbullet](https://www.pushbullet.com) and create API key
 2. Configure your own `config.json`
-3. Run `gem install` to install required gems
-4. `ruby run.rb` or `chmod +x run.rb && ./run.rb`
-5. Setup with this script with **crontab** or **daemonized** it, whatever you like
-6. Checkout notifications on your devices
+3. Run `gem install bundler` if bundler is not installed on your system
+4. Run `bundle install` to install required gems
+5. `ruby run.rb` or `chmod +x run.rb && ./run.rb`
+6. Setup with this script with **crontab** or **daemonized** it, whatever you like
+7. Checkout notifications on your devices
 
 ### Configuration
 
